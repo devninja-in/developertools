@@ -1,0 +1,19 @@
+.root {
+    flexGrow: 1;
+    height: 85vh;
+    width: 80vw;
+}
+
+.textbox {
+    width: 50vw;
+    align: 'center';
+    borderRightWidth: 30;
+    borderLeftWidth: 30;
+    borderColor: "#FFFFFF";
+}
+
+.button {
+    width: 10%;
+    align: 'center';
+    margin: 5px;
+}
