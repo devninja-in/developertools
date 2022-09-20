@@ -45,7 +45,7 @@ const useStyles = makeStyles((theme: Theme) =>
 export default function CertificationDecoder() {
 
     const [inputText, setInputText] = useState<string>('Test');
-    const [decodedText, setDecodedText] = useState<{}>({})
+    const [, setDecodedText] = useState<{}>({})
     const classes = useStyles();
 
     const clearInputText = () => {
