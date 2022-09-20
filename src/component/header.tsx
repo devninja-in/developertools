@@ -40,8 +40,8 @@ export default function AppHeader({openClippedDrawer, setOpenClippedDrawer}) {
                     {/*<Button color="inherit" onClick={() => history.push('/encode-decode')}>Encode/Decode</Button>
                     <Button color="inherit" onClick={() => history.push('/json-editor')}>Json</Button>
                     */}
-                    <div data-tip="support@gsapp.in" data-for='contact-us-tooltip' data-place='bottom'>
-                        <Button className={classes.button}  variant={"text"} color="inherit" onClick={() => window.location.href='mailto:support@gsapp.in'}>Contact Us</Button>
+                    <div data-tip="support@devninja.in" data-for='contact-us-tooltip' data-place='bottom'>
+                        <Button className={classes.button}  variant={"text"} color="inherit" onClick={() => window.location.href='mailto:support@devninja.in'}>Contact Us</Button>
                     </div>
                     <ReactTooltip id="contact-us-tooltip" clickable/>
                 </Toolbar>
