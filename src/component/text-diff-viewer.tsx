@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 // import the react-json-view component
-import {Button, createStyles, Grid, makeStyles, TextField, Theme} from "@material-ui/core";
+import {Button, createStyles, Grid, makeStyles, Theme} from "@material-ui/core";
 import ReactDiffViewer from 'react-diff-viewer';
 
 

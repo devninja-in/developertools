@@ -58,6 +58,7 @@ export default function AppDrawer({selectedOperation, openClippedDrawer}) {
     const history = useHistory();
     const [selected, setSelected] = useState(selectedOperation);
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => handleOnClick(selectedOperation), [selectedOperation]);
 
     const handleOnClick = (operation) => {
