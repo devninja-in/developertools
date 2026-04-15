@@ -3,7 +3,7 @@ name = "devninja-tools"
 
 [build]
 command = "npm run build"
-publish = "out"
+publish = "dist"
 
 [build.environment]
 NODE_VERSION = "18"
