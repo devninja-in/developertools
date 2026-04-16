@@ -74,9 +74,9 @@ const tools = [
   {
     id: 'certificate',
     title: 'Certificate Decoder',
-    description: 'Decode and inspect SSL/TLS certificates',
+    description: 'Decode and inspect X.509 SSL/TLS certificates',
     icon: Shield,
-    href: '/tools/certificate/decoder',
+    href: '/tools/cert',
     category: 'Security',
   },
 ]
