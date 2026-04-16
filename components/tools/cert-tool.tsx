@@ -360,9 +360,10 @@ class ASN1Parser {
     }
     publicKeyAlgorithm = algMap[algOid] || algOid
 
-    // Calculate fingerprints
-    const sha1Hash = await crypto.subtle.digest('SHA-1', certData)
-    const sha256Hash = await crypto.subtle.digest('SHA-256', certData)
+    // Calculate fingerprints - ensure proper typing for Cloudflare deployment
+    const certBuffer = new Uint8Array(certData)
+    const sha1Hash = await crypto.subtle.digest('SHA-1', certBuffer)
+    const sha256Hash = await crypto.subtle.digest('SHA-256', certBuffer)
 
     return {
       subject,
